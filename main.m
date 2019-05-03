@@ -1,6 +1,6 @@
 clear; clc;
 
-% Values to be entered here. Following values were used for testing purposes
+% Input values to be entered here. Following values were used for testing purposes
 E1 = 38.6e9; E2 = 8.27e9; G12 = 4.14e9;                     % Unit: Pa
 v12 = 0.26;
 a1 = 8.6e-6; a2 = 22.1e-6;                                  % Unit: 1/degC
