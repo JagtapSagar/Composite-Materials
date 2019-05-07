@@ -1,10 +1,11 @@
 # Composite-Materials-Project
 
-A composite laminate contains any number of composite lamina arranged at diferent angles.
+Note: A composite laminate contains any number of composite lamina arranged at diferent angles.
 A lamina is typically modeled as having one layer of fibers through the thickness.
 
-The aim is to find the optimum thickness of each layer/lamina of the laminate in such a way that none of the layers fail. For each layer we consider top, middle, and bottom planes to calculate the Strength Ratio and the Tsai Wu value.
+<b>The aim</b> is to <i>find the optimum thickness of each layer/lamina of the laminate in such a way that none of the layers fail under load</i>. For each layer we consider top, middle, and bottom planes to calculate the Strength Ratio and the Tsai Wu value.
 
+<b>The approach taken</b>:
 Counter intuitive to minimize the failure index when designing a laminate under this constraint; where results would be load- dependent. Maximization of the safety factor instead yields load-independent results.
 
 In a uni-axial loading situation, predicting failure obviously reduces itself to comparing the internal stresses (s) to the material’s strength (F) in the loading direction. In this situation, the
