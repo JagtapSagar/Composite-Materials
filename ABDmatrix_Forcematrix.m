@@ -1,5 +1,5 @@
 function [ABD, Force] = ABDmatrix_Forcematrix(thetas, H, layer_thickness, E1, E2, v12, G12, a1, a2, dT)
-    %ABDmatrix_Forcematrix : Calculates ABD & Force Matrix for all values of theta
+    %ABDmatrix_Forcematrix : Calculates ABD & Force Matrices for all values of theta
     
     N = length(thetas);  % Unit: degrees
     Nf = [5000 5000 0]'; % Unit: N/m
