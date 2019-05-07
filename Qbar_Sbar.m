@@ -1,5 +1,5 @@
 function [ Qbar,Sbar ] = Qbar_Sbar( E1,E2,v12,G12,theta )
-    %QBAR_SBAR : Calculates Qbar & Sbar matrices
+    % QBAR_SBAR : Calculates Qbar & Sbar matrices
     S11 = 1/E1;
     S22 = 1/E2;
     S66 = 1/G12;
